@@ -762,3 +762,22 @@ a{
     }
   
 }
+
+
+@media(max-width: 567px){
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .about  .about-content .education,
+    .about  .about-content .experience,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .portfolio .portfolio-item{
+        flex: 0 0 auto;
+        max-width: 100%;
+    }
+
+}
